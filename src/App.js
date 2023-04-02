@@ -33,7 +33,7 @@ class App extends Component{
 
         this.setState({characters:filtered})
     }
-
+ 
     render(){
         const {characters} = this.state
       return (
